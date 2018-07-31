@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefefe;
+}
+
+section {
+  margin: 7em;
+  padding: 20px;
+}
+
+input[type="text"]:focus {
+  background-color: lightblue;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: lightblue;
+}
+
+.demo-card-wide.mdl-card {
+  width: fit-content;
+}
+
+.demo-list-control {
+  width: 390px;
+}
+.mdl-checkbox {
+  margin-right: 10px;
+}
